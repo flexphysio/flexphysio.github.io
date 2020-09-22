@@ -46,6 +46,30 @@
                 left: 50%;
                 transform: translate(-50%, -50%);
             }
+
+            @media only screen and (max-width: 600px) {
+                * {
+                    margin: 0;
+                    padding: 0;
+                }
+                h1 {
+                    font-size: 26px;
+                    margin-bottom: 20px;
+                    line-height: 28px;
+                }
+                body {
+                    font: 16px 'Lato', sans-serif;
+                    text-align: center;
+                    color: #6666d3;
+                    background-color: #f5f9fc;
+                }
+                article {
+                    display: block;
+                    text-align: left;
+                    width: 95%;
+                    margin: 0 auto;
+                }
+            }
         </style>
     </head>
     <body>
@@ -58,7 +82,7 @@
                 We are currently working on our awesome new site.
                 <span class="color">Stay tuned!</span>
             </h1>
-            <b>Flex Centre for Physiotherapy and Rehabilitation</b>
+            <p>Flex Centre for Physiotherapy and Rehabilitation</p>
         </article>
     </body>
 </html>
